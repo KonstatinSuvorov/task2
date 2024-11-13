@@ -1,0 +1,38 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+  color: #00ff41; 
+}
+
+.app {
+  text-align: center;
+  background-color: black;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 255, 65, 0.7);
+}
+
+.clock h1 {
+  font-size: 24px;
+  color: #00ff41;
+  text-shadow: 0 0 10px #00ff41, 0 0 20px #00ff41, 0 0 30px #00ff41;
+}
+
+.clock p {
+  font-size: 48px;
+  font-weight: bold;
+  color: #00ff41;
+  margin: 10px 0;
+  text-shadow: 0 0 10px #00ff41, 0 0 20px #00ff41, 0 0 30px #00ff41;
+  animation: flicker 1s infinite alternate;
+}
+
+@keyframes flicker {
+  0% { opacity: 1; }
+  50% { opacity: 0.9; }
+  100% { opacity: 1; }
+}

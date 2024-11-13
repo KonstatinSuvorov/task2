@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.movie {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  display: inline-block;
+  text-align: left;
+}
+
+img {
+  margin-top: 10px;
+  border-radius: 8px;
+}
